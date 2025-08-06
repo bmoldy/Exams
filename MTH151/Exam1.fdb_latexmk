@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1752699943.99873 "Exam1.tex" "Exam1.pdf" "Exam1" 1752699944.65736 0
+["pdflatex"] 1754492524.01605 "Exam1.tex" "Exam1.pdf" "Exam1" 1754492524.7286 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1742685315 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1742685315 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -17,6 +17,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1742685315 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1742685315 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1742685315 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1742685315 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1742685315 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty" 1742685315 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1742685315 2222 2166a1f7827be30ddc30434e5efcee1b ""
@@ -32,8 +33,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1742685315 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1746059390 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1746059189 2008246 288f32115ec7b45c7dbe3db81c1b365c ""
-  "Exam1.aux" 1752699944.58152 1215 0822d83c99dae65bfecd94782b8535e2 "pdflatex"
-  "Exam1.tex" 1752699942.45979 1875 fe22d423f8a07970b4fb484f88121051 ""
+  "Exam1.aux" 1754492524.65156 2437 73cc4d61685ea8009d388a68aaea1119 "pdflatex"
+  "Exam1.tex" 1754492522.05252 2665 c21eef72c4dfa361ecec3708f4233ab0 ""
   (generated)
   "Exam1.aux"
   "Exam1.log"
