@@ -2,14 +2,16 @@
 
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
 
 \printanswers %Remove to hide answers
 \pagestyle{headandfoot} %Adds Headers and Footers
 \runningheadrule
-\firstpageheader{Math 151}{Exam 1}{July 4, 1776}
+\firstpageheader{Math 151}{Exam 1}{\today}
 \runningheader{Math 151}
 {Exam 1, Page \thepage\ of \numpages}
-{July 4, 1776}
+{\today}
 \firstpagefooter{}{\thepage}{}
 \runningfooter{}{\thepage}{}
 
@@ -110,8 +112,61 @@ x^{2}+6x-7=0
 |3x-9| > 3
 \]
 
-\question 
+\question Solve the system of linear equations
 
+\begin{align*}
+	x&+3y=8\\
+	2x&-y=9\\
+\end{align*}
+
+\question Solve the system of linear equations 
+\begin{align*}
+	x&+2y=2 \\
+		-4x&+3y = 25 \\
+\end{align*}
+
+
+\question Use the graph to evaluate the following function
+
+\[
+\includegraphics[scale = 0.1]{quadratic_graph}
+\]
+
+\question Evaluate the function
+\[
+f(x)=x^{2}+2x+3
+\]
+for the following function values 
+\begin{enumerate}[label = \alph*)]
+    \item $f(-2)=$ 
+		\item $f(x+1)=$
+		\item $f(-x)=$
+\end{enumerate}
+
+\question Find the relative maximum and minimums of the following graph 
+
+\begin{figure}[htb!]
+  \centering
+  \includegraphics[scale = 0.1]{minmax}
+\end{figure}
+
+\question Give an example of an even function, and verify that it is an even function. 
+
+\question Evaluate the following piecewise function at the following values
+\[
+	f(x) =
+	\begin{cases}
+   x+4 & x\leq -3 \\
+	 -x+2 & x> -3 \\
+	\end{cases}
+\]
+
+\begin{enumerate}
+    \item $f(-5)=$
+		\item $f(-3) = $
+		\item $f(-1)= $
+		\item $f(0)=$
+\end{enumerate}
 
 \end{questions}
 
