@@ -1,0 +1,85 @@
+\documentclass[addpoints,12pt]{exam}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+
+\printanswers %Remove to hide answers
+\pagestyle{headandfoot} %Adds Headers and Footers
+\runningheadrule
+\firstpageheader{Math 151}{Exam 1}{\today}
+\runningheader{Math 151}
+{Exam 1, Page \thepage\ of \numpages}
+{\today}
+\firstpagefooter{}{\thepage}{}
+\runningfooter{}{\thepage}{}
+
+\newcommand{\tft}{
+\begin{oneparcheckboxes}
+\CorrectChoice True
+\choice False
+	\end{oneparcheckboxes}
+}
+\newcommand{\tff}{
+\begin{oneparcheckboxes}
+\choice True
+\CorrectChoice False
+	\end{oneparcheckboxes}
+}
+
+\checkboxchar{$\Box$}
+\checkedchar{$\blacksquare$}
+
+
+\begin{document}
+
+%The box at the top, and the name
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{\centering
+Answer the questions in the spaces provided on the
+question sheets. If you run out of room for an answer,
+continue on the back of the page.}}}
+\end{center}
+\vspace{0.1in}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{0.2in}
+
+%Question Formatting
+%\qformat{\textbf{Question \thequestion}\quad (\thepoints)\hfill}
+%Point Table
+
+
+%\begin{center}
+%\gradetable[h][questions]
+%\end{center}
+
+%Beginning Questions
+\begin{questions}
+	\question Answer each of the following. \begin{enumerate}[label=\alph*)]
+	    \item Give an example of a finite set $A$ in set builder notation. 
+			\item Write this same set $A$ in roster method. 
+			\item Give the cardinality $n(A)$ of your finite set $A$. 
+			\item Give an example of a proper subset of your set $A$ if it exists. If there does not exist a proper subset, state why. Be sure to use proper notation when naming your subset, either using roster or set builder notation. 
+			\item Is the set $\emptyset$ a subset of your set $A$?
+	\end{enumerate}
+	\question Consider the following two sets 
+	\[
+	A=\{a,b,c,d,e,f\} \hspace{30pt} B = \{d,e,f,g,h\}
+	\]
+	Answer the following True or False questions. 
+	\begin{enumerate}[label = \alph*)]
+		\item \tff $B\subset C$
+		\item \tft $A\cap B = \{d,e,f\}$
+		\item \tff $A\cup B = \{a,b,c,g,h\}$
+		\item \tff $\{a,b,c,d,e,f\}\subset A$
+		\item \tft $\{a,b,c,d,e,f\} \subseteq A$ 
+		\item \tft $(B\subseteq B)\wedge (A\subseteq A)$ 
+		\item \tft $A\cap B \subseteq A\cup B$
+	\end{enumerate}
+	\question
+\end{questions}
+
+
+\end{document}
