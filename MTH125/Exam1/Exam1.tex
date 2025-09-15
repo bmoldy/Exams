@@ -8,6 +8,7 @@
 \usepackage{tikz}
 \usepackage{multicol}
 \usepackage{comment}
+\usepackage[margin = 0.5 in]{geometry}
 
 \printanswers %Remove to hide answers
 \pagestyle{headandfoot} %Adds Headers and Footers
@@ -245,7 +246,9 @@ Fill in each region of the Venn Diagram with the number of people in each region
 		\item How many elements belong to $A$ but not to $B$, that is, what is $n(A\cap B ')$?
 		\item How many elements belong to set $A$ or set $B$,  that is, what is $n(A\cup B)$? 
 		\item How many elements below to $B$ and $C$, that is, what is $n(B\cap C)$ ?
-		\item How many elements belong in at least $1$ of the sets $A$, $B$ and $C$? that is, what is $n(A\cup B\cup C$)?Hint: $n(U) = 37$
+		\item How many elements belong in at least $1$ of the sets $A$, $B$ and $C$? that is, what is $n(A\cup B\cup C$)?
+
+			Hint: $n(U) = 37$
 \end{enumerate}
 
 \begin{center}
@@ -282,6 +285,7 @@ Fill in each region of the Venn Diagram with the number of people in each region
 \newpage
 \question You take a poll of $100$ college students where classes at their college are held either Monday, Wednesday and Friday(MWF), or classes are help Tuesday and Thursday (TR). Assume every student is taking at least one class (they are students after all). If $65$ students report having classes $MWF$ and $55$ students report having classes on $TR$, how many people have class every day of the week? Hint: Use the inclusion-exclusion principle. 
 
+
 \begin{theorem}[Inclusion-Exclusion Principle]
     Let $A$ and $B$ be finite sets. Then 
 		\[
@@ -310,7 +314,6 @@ Fill in each region of the Venn Diagram with the number of people in each region
 \end{solution}\vfill
 
 
-\begin{comment}
 \question Let $A$, $B$ and $C$ be sets. Show explicitly that 
 \[
 n(A\cup B \cup C) = n(A)+n(B)+n(C) - n(A\cap B) - n(B\cap C) - n(A\cap C)+n(A\cap B \cap C)
@@ -320,13 +323,32 @@ Verify this formula holds using the cardinalities given in Problem 4.
 
 \textbf{Hint:} $(A\cup B) \cap C = (A\cap B)\cup (B\cap C)$ and $(A\cap B) \cap (B\cap C) = A\cap B\cap C$. 
 
-\textbf{Hint 2:} Use the inclusion-exclusion principle for two sets.  \vfill
+\textbf{Hint 2:} Use the inclusion-exclusion principle for two sets.  
 
-\begin{solution}
-    
-\end{solution}
 
-\end{comment}
+
+ \textbf{Solution:}   First, use the inclusion exclusion principle on the set $A\cup B$ and the set $C$:
+		\[
+			\boxed{n((A\cup B)\cup C) = n(A\cup B)+n(C)-n((A\cup B)\cap C)}
+		\]
+		Then, using the fact that $(A\cup B)\cap C = (A\cap C)\cup (B\cap C)$
+		we get :
+		\[
+			\boxed{n(A\cup B \cup C) = n(A\cup B)+n(C)-n((A\cap C)\cup (B\cap C))}
+		\]
+		Then, we need to use the inclusion exclusion prinicple on $n(A\cap B)$ :
+		\[
+			\boxed{n(A\cup B \cup C) = n(A)+n(B)-n(A\cap B)+n(C)-n((A\cap C)\cup (B\cap C))}
+		\]
+		Finally, we can use the inclusion exclusion principle on $(A\cap C)$ and $(B\cap C)$ :
+\[
+	\boxed{n(A\cup B \cup C) = n(A)+n(B)-n(A\cap B)+n(C)- \left(n(A\cap C)+n(B\cap C)-n((A\cap C)\cap (B\cap C))\right)}
+\]
+Distrubute the negative over the last 3 terms and use the fact that $(A\cap C)\cap (B\cap C)= (A\cap B\cap C)$ gives :
+\[
+	\boxed{n(A\cup B \cup C) = n(A)+n(B)+n(C)-n(A\cap B)-n(A\cap C)-n(B\cap C)+n(A\cap B\cap C)}
+\]
+
 
 \end{questions}
 
