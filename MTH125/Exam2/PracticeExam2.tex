@@ -14,9 +14,9 @@
 \noprintanswers %Remove to hide answers
 \pagestyle{headandfoot} %Adds Headers and Footers
 \runningheadrule
-\firstpageheader{Math 125}{Exam 1 }{\today}
+\firstpageheader{Math 125}{Exam 2 }{\today}
 \runningheader{Math 125}
-{Exam 1, Page \thepage\ of \numpages}
+{Exam 2, Page \thepage\ of \numpages}
 {\today}
 \firstpagefooter{}{\thepage}{}
 \runningfooter{}{\thepage}{}
@@ -49,9 +49,10 @@
 \checkboxchar{$\Box$}
 \checkedchar{$\blacksquare$}
 
-
+\theoremstyle{definition}
 \newtheorem{theorem}{Theorem}
 
+\newtheorem{lemma}{Lemma}
 \begin{document}
 
 %The box at the top, and the name
@@ -73,6 +74,51 @@ continue on the back of the page.}}}
 %\gradetable[h][questions]
 %\end{center}
 
+\begin{center}
+    \Huge Formulas
+\end{center}
+
+\begin{lemma}
+    The roots of a polynomial $y = ax^{2}+bx+c$ are given by 
+		\[
+		x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}
+		\]
+\end{lemma}
+
+\begin{lemma}
+    If you would like to find a percent $r$ of a value $P$, you can use the formula 
+		\[
+		A = Pr
+		\]
+		If you would like to increase $P$ by a certain percent $r$, you can use 
+		\[
+		A = P(1+r)
+		\]
+\end{lemma}
+
+\begin{lemma}
+	The simple interest formula is given by 
+    \[
+    A = P(1+rt)
+    \]
+		The compound interest formula compounded yearly is given by 
+		\[
+		A = P(1+r)^{t} 
+		\]
+		The compound interest formula compounded $n$-times yearly is given by 
+		\[
+		A = P(1+\frac{r}{n})^{nt}
+		\]
+		Here $A$ is the amount of money you end with, $P$ is the starting value, $r$ is the rate , and $t$ is the number of years. 
+		    
+\end{lemma}
+\begin{lemma}
+    
+\end{lemma}
+
+\begin{center}
+    \Huge Review Questions
+\end{center}
 %Beginning Questions
 \begin{questions}
 \question Consider the following list of sentences. Respond Yes if the sentence is a mathematical statement, and No if it is not. 
@@ -139,7 +185,7 @@ Do \textbf{NOT} simplify the quadratic formula after applying the quadratic form
 	\item Which account will be the better investment in the short term? Why is this? 
 	\item Which account will be the better investment in the long run? Why is this? 
 \end{enumerate}
-    
+    \question Assume that you buy a new car that costs $\$25000$ dollars. You finance it with a $3$ year loan at $4\%$. Assume you make monthly payments. What is the monthly payment for your car loan?
 \end{questions}
 
     
